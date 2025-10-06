@@ -1,0 +1,254 @@
+EXAM REGISTRATION SYSTEM
+
+
+2	+
+AIM:
+3	+
+To draw the diagrams [use case, activity, sequence, collaboration, class, statechart,
+4	+
+component, deployment, package] for the Exam registration system.
+5	+
+SOFTWARE REQUIREMENTS SPECIFICATION
+6	+
+7	+
+SOFTWARE REQUIREMENTS
+8	+
+SPECIFICATION
+9	+
+1.0 Hardware Requirements
+10	+
+1.1 Software Requirements
+11	+
+1.2 Problem Analysis and Project Plan
+12	+
+1.3 Project Description
+13	+
+1.4 Reference
+14	+
+15	+
+1.0 HARDWARE REQUIREMENTS:
+16	+
+Intel Pentium Processor I3/I5
+17	+
+1.1 SOFTWARE REQUIREMENTS:
+18	+
+Rational rose / Argo UML
+19	+
+1.2 PROBLEM ANALYSIS AND PROJECT PLANNING
+20	+
+The Exam Registration is an application in which applicant can register themselves for
+21	+
+the exam. The details of the students who have registered for the examination will be stored in a
+22	+
+database and will be maintained. The registered details can then be verified for any fraudulent or
+23	+
+duplication and can be removed if found so. The database which is verified can be used to issue
+24	+
+hall tickets and other necessary materials to the eligible students.
+25	+
+1.3 PROJECT DESCRIPTION:
+26	+
+This software is designed for the verification of the details of the candidate by the central
+27	+
+computer. The details regarding the candidate will be provided to the central computer through
+28	+
+the administrator and the computer will verify the details of candidate and provide approval
+29	+
+.Then the hall ticket will be issued from the office to the candidate.
+30	+
+31	+
+1.4 REFERENCES:
+32	+
+IEEE Software Requirement Specification format.
+33	+
+34	+
+USE CASE DIAGRAM:
+35	+
+This diagram will contain the actors, use cases which are given below
+36	+
+Actors: Student, educational officer..
+37	+
+Use case: Student details, student photo, student proof submission of proof
+38	+
+,verification of proof, payment of fees, issue of hall ticket.
+39	+
+40	+
+41	+
+42	+
+CLASS DIAGRAM:
+43	+
+This diagram consists of the following classes, attributes and their operations
+44	+
+CLASSES ATTRIBUTES OPERATIONS
+45	+
+Central educational system Student details Print hall ticket(),
+46	+
+Issue hall ticket()
+47	+
+48	+
+Stud Submit details,
+49	+
+Submit photo
+50	+
+51	+
+Payment of fees()
+52	+
+Edu officer Enter details Issue hall ticket(),
+53	+
+Verify proof()
+54	+
+55	+
+ACTIVITY DIAGRAM:
+56	+
+This diagram will have the activities as Start point, End point, Decision boxes as given
+57	+
+below:
+58	+
+59	+
+Activities: Enter student details , submit student proof and photo, payment of
+60	+
+fees, issue of hall ticket.
+61	+
+Decision box: Verification of proof.
+62	+
+63	+
+SEQUENCE DIAGRAM:
+64	+
+This diagram consists of the objects, messages and return messages.
+65	+
+Object: student, educational officer, central education system.
+66	+
+67	+
+COLLABORATION DIAGRAM:
+68	+
+This diagram contains the objects and actors. This will be obtained by the completion of
+69	+
+the sequence diagram and pressing the F5 key.
+70	+
+71	+
+STATE CHART DIAGRAM:
+72	+
+The purpose of state chart diagram is to understand the algorithm involved in performing
+73	+
+a method. It is also called as state diagram. A state is represented as a round box, which may
+74	+
+contain one or more compartments. An initial state is represented as small dot. A final state is
+75	+
+represented as circle surrounding a small dot.
+76	+
+77	+
+COMPONENT DIAGRAM:
+78	+
+The component diagram&#39;s main purpose is to show the structural relationships between
+79	+
+the components of a system. It is represented by boxed figure. Dependencies are represented by
+80	+
+communication association
+81	+
+82	+
+DEPLOYMENT DIAGRAM:
+83	+
+A deployment diagram in the unified modeling language serves to model the physical
+84	+
+deployment of artifacts on deployment targets. Deployment diagrams show &quot;the allocation of
+85	+
+artifacts to nodes according to the Deployments defined between them. It is represented by 3-
+86	+
+dimentional box. Dependencies are represented by communication association.
+87	+
+88	+
+PACKAGE DIAGRAM:
+89	+
+90	+
+A package diagram in unified modeling language that depicts the dependencies
+91	+
+between the packages that make up a model. A Package Diagram (PD) shows a grouping of
+92	+
+elements in the OO model, and is a Cradle extension to UML. PDs can be used to show groups
+93	+
+of classes in Class Diagrams (CDs), groups of components or processes in Component Diagrams
+94	+
+(CPDs), or groups of processors in Deployment Diagrams (DPDs).
+95	+
+There are three types of layer. They are
+96	+
+o User interface layer
+97	+
+o Domain layer
+98	+
+o Technical services layer
+99	+
+100	+
+PROGRAM CODING:
+101	+
+CENETRAL EDUATIONAL SYSTEM:
+102	+
+Public class central educational system
+103	+
+{
+104	+
+Public integer student details;
+105	+
+Public void valid proof()
+106	+
+{
+107	+
+}
+108	+
+109	+
+}
+110	+
+EDUCATIONAL OFFICER:
+111	+
+Public class educational officer
+112	+
+{
+113	+
+Public integer id no;
+114	+
+Public string name;
+115	+
+Public void verification of proof()
+116	+
+{
+117	+
+}
+118	+
+Public void issue hall ticket()
+119	+
+{
+120	+
+}
+121	+
+}
+122	+
+123	+
+STUDENT:
+124	+
+Public class student
+125	+
+{
+126	+
+Public integer student details;
+127	+
+Public void payment of fees()
+128	+
+{
+129	+
+}
+130	+
+Public void receive hall ticket()
+131	+
+132	+
+{
+133	+
+}
+134	+
+}
+135	+
+136	+
+RESULT:
+137	+
+Thus the diagrams [use case, activity, sequence, collaboration, class, statechart,
+138	+
+component, deployment, package] for the Exam registration system.
