@@ -1,0 +1,243 @@
+STOCK MAINTAINANCE SYSTEM
+
+
+2	+
+AIM:
+3	+
+To draw the diagrams [ usecase, activity, sequence, collaboration, class, collaboration,
+4	+
+deployment, state chart , package] for the Stock maintainence system.
+5	+
+6	+
+SOFTWARE REQUIREMENTS SPECIFICATION:
+7	+
+8	+
+9	+
+10	+
+11	+
+1.0 Hardware Requirements
+12	+
+1.1 Software Requirements
+13	+
+1.2 Problem Analysis and Project Plan
+14	+
+1.3 Project Description
+15	+
+1.4 Reference
+16	+
+1.0HARDWARE REQUIREMENTS:
+17	+
+Intel Pentium Processor I3/I5
+18	+
+1.1SOFTWARE REQUIREMENTS:
+19	+
+Rational rose / Argo UML
+20	+
+1.2 PROBLEM ANALYSIS AND PROJECT PLANNING :
+21	+
+The Stock Maintenance System, initial requirement to develop the project about the
+22	+
+mechanism of the Stock Maintenance System is caught from the customer. The requirement are
+23	+
+analyzed and refined which enables the end users to efficiently use Stock Maintenance System.
+24	+
+The complete project is developed after the whole project analysis explaining about the scope
+25	+
+and the project statement is prepared.
+26	+
+1.3PROJECT DESCRIPTION:
+27	+
+This software is designed for supporting the computerized stock maintainence System .In
+28	+
+this system, the customer can place order and purchase items with the aid of the stock dealer and
+29	+
+central stock system. This orders are verified and the items are delivered to the customer.
+30	+
+1.4 REFERENCES:
+31	+
+IEEE Software Requirement Specification format.
+32	+
+USE CASE DIAGRAM:
+33	+
+This diagram will contain the actors, use cases which are given below
+34	+
+Actors: Customer, Stock dealer, central stock system.
+35	+
+Use case: purchase order, verification of order, payment ,delivery of items.
+36	+
+37	+
+38	+
+CLASS DIAGRAM:
+39	+
+This diagram consists of the following classes, attributes and their operations.
+40	+
+CLASSES ATTRIBUTES OPERATIONS
+41	+
+Central stock system Store stock details Print bill()
+42	+
+43	+
+ACTIVITY DIAGRAM:
+44	+
+This diagram will have the activities as Start point ,End point, Decision boxes as given
+45	+
+below:
+46	+
+Activities: Purchase order, payment , delivery of items.
+47	+
+Decision box: Valid or not
+48	+
+49	+
+SEQUENCE DIAGRAM:
+50	+
+This diagram consists of the objects, messages and return messages.
+51	+
+Object: Customer, Stock dealer, Central stock system
+52	+
+53	+
+COLLABORATION DIAGRAM:
+54	+
+This diagram contains the objects and actors. This will be obtained by the completion of
+55	+
+the sequence diagram and pressing the F5 key.
+56	+
+57	+
+STATE CHART DIAGRAM:
+58	+
+The purpose of state chart diagram is to understand the algorithm involved in performing
+59	+
+a method. It is also called as state diagram. A state is represented as a round box, which may
+60	+
+contain one or more compartments. An initial state is represented as small dot. A final state is
+61	+
+represented as circle surrounding a small dot.
+62	+
+63	+
+COMPONENT DIAGRAM:
+64	+
+The component diagram&#39;s main purpose is to show the structural relationships between
+65	+
+the components of a system. It is represented by boxed figure. Dependencies are represented by
+66	+
+communication association
+67	+
+68	+
+DEPLOYMENT DIAGRAM:
+69	+
+A deployment diagram in the unified modeling language serves to model the physical
+70	+
+deployment of artifacts on deployment targets. Deployment diagrams show &quot;the allocation of
+71	+
+artifacts to nodes according to the Deployments defined between them. It is represented by 3-
+72	+
+dimentional box. Dependencies are represented by communication association.
+73	+
+74	+
+75	+
+PACKAGE DIAGRAM:
+76	+
+77	+
+A package diagram in unified modeling language that depicts the dependencies
+78	+
+between the packages that make up a model. A Package Diagram (PD) shows a grouping of
+79	+
+elements in the OO model, and is a Cradle extension to UML. PDs can be used to show groups
+80	+
+81	+
+82	+
+REGISTER NO:
+83	+
+84	+
+OOAD LAB
+85	+
+of classes in Class Diagrams (CDs), groups of components or processes in Component Diagrams
+86	+
+(CPDs), or groups of processors in Deployment Diagrams (DPDs).
+87	+
+There are three types of layer. They are
+88	+
+o User interface layer
+89	+
+o Domain layer
+90	+
+o Technical services layer
+91	+
+92	+
+93	+
+PROGRAM CODING:
+94	+
+CENTRAL STOCK SYSTEM:
+95	+
+96	+
+REGISTER NO:
+97	+
+98	+
+OOAD LAB
+99	+
+Public central stock system
+100	+
+{
+101	+
+Public integer store stock details;
+102	+
+Public void print bill()
+103	+
+{
+104	+
+}
+105	+
+Public void deliver product()
+106	+
+{
+107	+
+}
+108	+
+}
+109	+
+CUSTOMER:
+110	+
+Public class customer
+111	+
+{
+112	+
+Public integer place order;
+113	+
+Public void payment()
+114	+
+{
+115	+
+}
+116	+
+}
+117	+
+STOCK DEALER:
+118	+
+Public class stock dealer
+119	+
+{
+120	+
+Public integer take order;
+121	+
+Pubic integer enter details;
+122	+
+Public integer verify details;
+123	+
+Public void deliver item()
+124	+
+125	+
+REGISTER NO:
+126	+
+127	+
+OOAD LAB
+128	+
+{
+129	+
+}
+130	+
+}
+131	+
+132	+
+RESULT:
+133	+
+Thus the diagrams [usecase, activity, sequence, collaboration, class, collaboration,
+134	+
+deployment, compoenent, statechart, package] for the Stock maintainence system.
