@@ -1,0 +1,240 @@
+PASSPORT AUTOMATION SYSTEM
+2	+
+AIM:
+3	+
+To draw the diagrams [usecase, activity, sequence, collaboration, class, statechart,
+4	+
+collaboration, component, deployment, package] for the Passport Automation System.
+5	+
+SOFTWARE REQUIREMENTS SPECIFICATION
+6	+
+7	+
+8	+
+SOFTWARE REQUIREMENTS SPECIFICATION
+9	+
+1.0 Hardware Requirements
+10	+
+1.1 Software Requirements
+11	+
+1.2 Problem Analysis and Project Plan
+12	+
+1.3 Project Description
+13	+
+1.4 Reference
+14	+
+15	+
+1.0 HARDWARE REQUIREMENTS:
+16	+
+Intel Pentium Processor I3/I5
+17	+
+1.1 SOFTWARE REQUIREMENTS:
+18	+
+Rational rose /Argo UML
+19	+
+1.2 PROBLEM ANALYSIS AND PROJECT PLAN
+20	+
+To simplify the process of applying passport, software has been created by designing
+21	+
+through rational rose tool. Initially the applicant login the passport automation system and
+22	+
+submits his details. These details are stored in the database and verification process done by the
+23	+
+passport administrator, regional administrator and police the passport is issued to the applicant.
+24	+
+1.3 PROJECT DESCRIPTION:
+25	+
+This software is designed for the verification of the passport details of the applicant by
+26	+
+the central computer. The details regarding the passport will be provided to the central computer
+27	+
+and the computer will verify the details of applicant and provide approval to the office. Then the
+28	+
+passport will issue from the office to the applicant.
+29	+
+1.4 REFERENCES:
+30	+
+IEEE Software Requirement Specification format.
+31	+
+32	+
+USE CASE DIAGRAM:
+33	+
+This diagram will contain the actors, use cases which are given below
+34	+
+Actors: Applicant, Enquiry Officer.
+35	+
+Use case: Applicant details, Applicant proof, Verification of proof, Issue of
+36	+
+passport, Cancellation of the passport
+37	+
+38	+
+CLASS DIAGRAM:
+39	+
+This diagram consists of the following classes, attributes and their operations.
+40	+
+CLASSES ATTRIBTES OPERATIONS
+41	+
+Passport management system Verify details, Store proof Verification of proof()
+42	+
+Enquiry officer Applicant details Issue of passport()
+43	+
+Applicant Name, Details Apply passport().
+44	+
+45	+
+ACTIVITY DIAGRAM:
+46	+
+This diagram will have the activities as Start point, End point, Decision boxes as given
+47	+
+below:
+48	+
+49	+
+Activities: Enter applicant details, Submission of proof, Verification of details,
+50	+
+Issue of passport.
+51	+
+Decision box: Check details whether it is correct or not.
+52	+
+SEQUENCE DIAGRAM:
+53	+
+This diagram consists of the objects, messages and return messages.
+54	+
+Object: Applicant, Enquiry officer, Passport management system.
+55	+
+COLLABORATION DIAGRAM:
+56	+
+This diagram contains the objects and actors. This will be obtained by the completion of
+57	+
+the sequence diagram and pressing the F5 key.
+58	+
+STATE CHART DIAGRAM :
+59	+
+The purpose of state chart diagram is to understand the algorithm involved in performing
+60	+
+a method. It is also called as state diagram. A state is represented as a round box, which may
+61	+
+contain one or more compartments. An initial state is represented as small dot. An final state is
+62	+
+represented as circle surrounding a small dot.
+63	+
+COMPONENT DIAGRAM
+64	+
+The component diagram&#39;s main purpose is to show the structural relationships between
+65	+
+the components of a system. It is represented by boxed figure. Dependencies are represented by
+66	+
+communication association.
+67	+
+DEPLOYMENT DIAGRAM
+68	+
+A deployment diagram in the unified modeling language serves to model the physical
+69	+
+deployment of artifacts on deployment targets. Deployment diagrams show &quot;the allocation of
+70	+
+artifacts to nodes according to the Deployments defined between them. It is represented by 3-
+71	+
+dimentional box. Dependencies are represented by communication association.
+72	+
+PACKAGE DIAGRAM:
+73	+
+74	+
+A package diagram in unified modeling language that depicts the dependencies
+75	+
+between the packages that make up a model. A Package Diagram (PD) shows a grouping of
+76	+
+elements in the OO model, and is a Cradle extension to UML. PDs can be used to show groups
+77	+
+of classes in Class Diagrams (CDs), groups of components or processes in Component Diagrams
+78	+
+(CPDs), or groups of processors in Deployment Diagrams (DPDs).
+79	+
+There are three types of layer. They are
+80	+
+o User interface layer
+81	+
+o Domain layer
+82	+
+o Technical services layer
+83	+
+84	+
+PROGRAM CODING:
+85	+
+APPLICANT:
+86	+
+Public class Applicant
+87	+
+{
+88	+
+Public Integer firstname;
+89	+
+Public Integer lastname;
+90	+
+Public void passport()
+91	+
+{
+92	+
+}
+93	+
+}
+94	+
+PASSPORT APPLICATION SYSTEM:
+95	+
+Public class passport application system
+96	+
+{
+97	+
+Public Integer details;
+98	+
+Public Integer proof;
+99	+
+Public class Applicant
+100	+
+{
+101	+
+Public Integer firstname;
+102	+
+Public Integer lastname;
+103	+
+Public void passport()
+104	+
+{
+105	+
+}
+106	+
+Public void verification()
+107	+
+{
+108	+
+}
+109	+
+110	+
+Public void issue()
+111	+
+{
+112	+
+}
+113	+
+Public void cancel()
+114	+
+{
+115	+
+}
+116	+
+}
+117	+
+118	+
+OFFICER:
+119	+
+Public class officer
+120	+
+{
+121	+
+Public Integer form;
+Public Integer responsible;
+Public void Database()
+{
+}
+}
+RESULT:
+Thus the diagrams [use case, activity, sequence, collaboration, class, collaboration,
+component, deployment, package ] for the Passport Automation system has been designed,
+executed and output is verified.
+9 commit comments
