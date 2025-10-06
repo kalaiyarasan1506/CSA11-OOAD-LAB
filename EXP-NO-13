@@ -1,0 +1,211 @@
+1 +
+BPO MANAGEMENT SYSTEM
+2 +
+AIM:
+3 +
+To draw the diagrams [ Use case , Class, Activity, Sequence, Collaboration, State Chart,
+4 +
+Component, Deployment, package ] for the BPO Management System .
+
+5 +
+SOFTWARE REQUIREMENTS SPECIFICATION
+6 +
+7 +
+SL.NO SOFTWARE REQUIREMENTS SPECIFICATION
+8 +
+1.0 Hardware Requirements
+9 +
+1.1 Software Requirements
+10 +
+1.2 Problem Analysis and Project Plan
+11 +
+1.3 Project description
+12 +
+1.4 Reference
+13 +
+14 +
+1.0 HARDWARE REQUIREMENTS:
+15 +
+16 +
+Intel Pentium Processor I3/I5
+17 +
+18 +
+1.1 SOFTWARE REQUIREMENTS:
+19 +
+Rational rose /Argo UML
+20 +
+21 +
+1.3 PROJECT DESCRIPTION:
+22 +
+This software is designed to know about the process that were taking place in the BPO office. This system holds the details of the customer who and all approaches to it.It is managed by the central systems.
+23 +
+1.4 REFERENCES:
+24 +
+IEEE Software Requirement Specification format.
+25 +
+
+26 +
+27 +
+28 +
+USECASE DIAGRAM:
+29 +
+This diagram will contain the attributes as start point, end point, decision box as
+30 +
+
+31 +
+given below
+32 +
+
+33 +
+34 +
+35 +
+ACTORS: Purchase product, Server, Central system
+36 +
+USECASE: Product, Voice, Non-Voice, Indian office, Employee, Feedback.
+37 +
+CLASS DIAGRAM:
+38 +
+This Diagram consists of the following classes, attributes and their operations.
+39 +
+40 +
+CLASSES ATTRIBUTES OPERATIONS
+41 +
+Central System Store, update Storing(), updating()
+42 +
+Dealer Employee name Delivery()
+43 +
+Customer Details Feedback()
+44 +
+45 +
+ACTIVITY DIAGRAM:
+46 +
+This diagram will contain the activities as start point, end point, decision boxes as given
+47 +
+below
+48 +
+ACTIVITIES: Purchase Product, On call, On chat
+49 +
+DECISION BOX: Option to check
+50 +
+SEQUENCE DIAGRAM:
+51 +
+This diagram consists of the objects, messages and return messages
+52 +
+Object: Customer, Dealer, Central System
+53 +
+COLLABORATION DIAGRAM:
+54 +
+This diagram contains the objects and actors. This will be obtained by the completion of the sequence diagram and pressing F5 key
+55 +
+56 +
+STATECHART DIAGRAM:
+57 +
+It is a technique to describe the behavior of the system. It describes all the possible states that a particular object gets into the object oriented technique. State diagram are drawn for a single class to show to the lifetime behaviour of a single objects
+58 +
+COMPONENT DIAGRAM:
+59 +
+The component diagram is represented by figure dependency and it is a graph of design of figure dependency. The component diagram's main purpose is to show the structural relationships between the components of a systems. It is represented by boxed figure. Dependencies are represented by communication association.
+60 +
+DEPLOYMENT DIAGRAM:
+61 +
+A deployment diagram in the unified modeling language serves to model the physical deployment of artifacts on deployment targets. Deployment diagrams show "the allocation of artifacts to nodes according to the Deployments defined between them. It is represented by 3- dimentional box. Dependencies are represented by communication association
+62 +
+PACKAGE DIAGRAM:
+63 +
+A package diagram in unified modeling language that depicts the dependencies between the packages that make up a model. A Package Diagram (PD) shows a grouping of elements in the OO model, and is a Cradle extension to UML. PDs can be used to show groups of classes in Class Diagrams (CDs), groups of components or processes in Component Diagrams (CPDs), or groups of processors in Deployment Diagrams (DPDs).
+64 +
+There are three types of layer. They are
+65 +
+o User interface layer
+66 +
+67 +
+o Domain layer
+68 +
+o Technical services layer
+69 +
+70 +
+PROGRAM CODING:
+71 +
+CENTRAL SYSTEM:
+72 +
+import java.util.Vector;
+73 +
+public class central system
+74 +
+{
+75 +
+public Integer store;
+76 +
+public Integer update;
+77 +
+public Vector mydealer; public void updating()
+78 +
+{
+79 +
+}
+80 +
+public void processing()
+81 +
+{
+82 +
+}
+83 +
+}
+84 +
+85 +
+86 +
+CUSTOMER:
+87 +
+import java.util.Vector; public class customer
+88 +
+{
+89 +
+public Integer name;
+90 +
+private Integer product; public Vector mydealer; public void feedback()
+91 +
+{
+92 +
+
+93 +
+}
+94 +
+public void customer()
+95 +
+{
+96 +
+}
+97 +
+}
+98 +
+DEALER:
+99 +
+import java.util.Vector; public class dealer
+100 +
+{
+101 +
+public Integer employeename; public Integer availability;
+102 +
+public Integer newAttr;
+103 +
+public Vector mycustomer;
+104 +
+public Vector mycentral system; public void payment()
+105 +
+{
+106 +
+}
+107 +
+public void delivery()
+108 +
+{
+109 +
+}
+110 +
+}
+111 +
+112 +
+113 +
+RESULT:
+114 +
+The diagrams [Use case, Class, Activity, Sequence, Collaboration, State Chart, Component, Deployment, package] for the BPO Management system has been designed, executed and output is verified.
